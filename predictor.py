@@ -35,8 +35,8 @@ model.fit(X_train, Y_train)
 
 # Perform predictions
 def predict(hand_landmarks):
-    center_x = (hand_landmarks.landmark[0].x + hand_landmarks.landmark[5].x + hand_landmarks.landmark[17].x)/3 # Kunin yung position ng palm
-    center_y = (hand_landmarks.landmark[0].y + hand_landmarks.landmark[5].y + hand_landmarks.landmark[17].y)/3 # Kagaya ng taas pero Y axis naman
+    center_x = (hand_landmarks.landmark[0].x + hand_landmarks.landmark[5].x + hand_landmarks.landmark[17].x)/3
+    center_y = (hand_landmarks.landmark[0].y + hand_landmarks.landmark[5].y + hand_landmarks.landmark[17].y)/3
 
     thumb_tip_x = center_x - hand_landmarks.landmark[mpHands.HandLandmark.THUMB_TIP].x
     thumb_tip_y = center_y - hand_landmarks.landmark[mpHands.HandLandmark.THUMB_TIP].y
@@ -124,3 +124,4 @@ while True:
             pyautogui.keyUp('a')
             pyautogui.keyUp('s')
             pyautogui.keyUp('d')
+d
