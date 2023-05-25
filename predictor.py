@@ -1,6 +1,5 @@
 # Import libraries
 import pyautogui
-from statistics import mode
 import cv2
 import mediapipe as mp
 from mediapipe import solutions
@@ -124,4 +123,3 @@ while True:
             pyautogui.keyUp('a')
             pyautogui.keyUp('s')
             pyautogui.keyUp('d')
-d
