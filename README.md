@@ -1,6 +1,6 @@
 # Gesture Recognition with Mediapipe and sklearn
 
-## Video Demo:  <URL HERE>
+## Video Demo:  https://www.youtube.com/watch?v=N-3Bozo3OpU
 
 ## Description:
 This repository contains code that utilizes Mediapipe and sklearn to predict gestures based on hand landmarks captured from a camera feed. The predicted gestures trigger corresponding outputs, allowing for gesture-based interaction with applications.
