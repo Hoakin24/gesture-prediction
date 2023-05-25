@@ -10,7 +10,6 @@ This repository contains code that utilizes Mediapipe and sklearn to predict ges
 - mediapipe
 - keyboard
 - pyautogui
-- statistics
 - scikit-learn
 - pandas
 
